@@ -1,0 +1,29 @@
+.animate {
+    height: 200px;
+    width: 200px;
+    animation-name: kleur;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: initial;
+    animation-direction: alternate;
+    animation-fill-mode: initial;
+    animation-play-state: initial;
+}
+@keyframes kleur {
+    0%{
+        background-color: hsl(150, 50%, 100%);
+    }
+    25%{
+        background-color: hsl(150, 50%, 75%);
+    }
+    50%{
+        background-color: hsl(150, 50%, 50%);
+    }
+    75%{
+        background-color: hsl(150, 50%, 25%);
+    }
+    100%{
+        background-color: hsl(150, 50%, 100%);
+    }
+}
